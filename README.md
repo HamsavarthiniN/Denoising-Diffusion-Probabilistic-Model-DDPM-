@@ -120,30 +120,11 @@ Attention reduced FID by approximately **25.3%** in this experiment.
 Repeated runs would be needed to establish whether the improvement is
 consistent.
 
-## 🖼️ Generated Images
-
-Add your saved qualitative comparison here:
-
-```markdown
-![Generated image comparison](figures/final_qualitative_comparison.png)
-```
-
-Add your saved training-loss plot here:
-
-```markdown
-![Training loss comparison](figures/final_training_loss_comparison.png)
-```
-
-The inspected samples showed varied colours and object-like structures.
-Some images remained blurry or contained distorted shapes.
-
 ## 📥 Trained Model Files
 
 Trained checkpoints and evaluation files can be stored on Google Drive.
 
-**Replace the placeholder below with your actual shareable link:**
-
-[Download Model Files – Google Drive](YOUR_GOOGLE_DRIVE_LINK)
+[Download Model Files – Google Drive](https://drive.google.com/drive/folders/1RIQ1TuE77rQrUeqXiECnoEQt-uSHa7FK?usp=sharing)
 
 Example checkpoint files:
 
@@ -165,15 +146,11 @@ Update the filenames below to match your actual repository:
 ```text
 DDPM-Image-Generation/
 ├── notebooks/
-│   ├── data_preparation_eda.ipynb
-│   ├── ddpm_cosine.ipynb
-│   ├── ddpm_linear.ipynb
-│   ├── ddpm_no_attention.ipynb
-│   ├── baseline_models.ipynb
-│   └── evaluation.ipynb
-├── figures/
-│   ├── final_qualitative_comparison.png
-│   └── final_training_loss_comparison.png
+│   ├── Data_preparation.ipynb
+│   ├── EDA.ipynb
+│   ├── DDPM_Modeling.ipynb
+│   ├── AE,VAE,DBSCAN.ipynb
+│   └── Final_comparison.ipynb
 ├── requirements.txt
 └── README.md
 ```
@@ -183,7 +160,7 @@ DDPM-Image-Generation/
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/HamsavarthiniN/Denoising-Diffusion-Probabilistic-Model-DDPM-.git
 cd DDPM-Image-Generation
 ```
 
