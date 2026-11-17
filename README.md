@@ -149,8 +149,7 @@ DDPM-Image-Generation/
 │   ├── Data_preparation.ipynb
 │   ├── EDA.ipynb
 │   ├── DDPM_Modeling.ipynb
-│   ├── AE,VAE,DBSCAN.ipynb
-│   └── Final_comparison.ipynb
+│   └── AE,VAE,DBSCAN.ipynb
 ├── requirements.txt
 └── README.md
 ```
