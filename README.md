@@ -213,7 +213,6 @@ provide the Python model-class definitions.**
 
 ## 🔮 Future Work
 
-- Evaluate EMA weights if the EMA experiment is completed.
 - Explore larger U-Net architectures and longer training.
 - Compare repeated training seeds.
 - Evaluate the selected model on the untouched test split.
